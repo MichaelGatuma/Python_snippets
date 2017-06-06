@@ -1,0 +1,8 @@
+#create a scrapy project structure
+scrapy startproject amazon
+
+# Create a spider
+scrapy genspider AmazonProductSpider
+
+#Running the App
+scrapy crawl AmazonDeals
