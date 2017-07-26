@@ -23,7 +23,6 @@
 </head>
 <body>
 	
-	{% include "include/navigation.html" %}
 	
 	<div style="margin-top:50px;'">
 	{% block content %}
@@ -35,7 +34,7 @@
 	
 	{% block footerJs %}
 		<script href="{{ url_for('static',filename='vendor/js/jquery.min.js') }}"></script>
-		<script href="{{ url_for('static',filename='vendor/js/bootstral.min.js') }}"></script>
+		<script href="{{ url_for('static',filename='vendor/js/bootstrap.min.js') }}"></script>
 	{% endblock %}
 </body>
 </html>

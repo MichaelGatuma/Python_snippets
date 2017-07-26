@@ -5,4 +5,4 @@ scrapy startproject amazon
 scrapy genspider AmazonProductSpider
 
 #Running the App
-scrapy crawl AmazonDeals
+scrapy crawl homeworkmarket
